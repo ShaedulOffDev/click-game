@@ -1,0 +1,25 @@
+.error{
+    z-index: 9999999999;
+    color: #fff;
+    font-size: 25px;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background: #000;
+    pointer-events: none;
+    user-select: none;
+}
+.wrap{
+    width: 100%;
+    height: calc(100vh - 200px);
+    position: relative;
+}
+.btn{
+    transition: .2s;
+}
+@media (max-width: 1024.5px){
+    .error{
+        display: flex !important;
+    }
+}
